@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Montserrat);
+
+h1{
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.calculator {
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    width: 350px;
+    
+    border-radius: 20px;
+    background-color: rgb(120, 146, 249);
+    margin: 7% auto auto auto;
+    box-shadow: inset 2px 0 10px -5px rgb(37, 39, 69), 
+                inset -5px 0 15px -5px rgb(68, 124, 215), 
+                inset 10px 0 10px -12px rgb(64, 204, 239), 
+                inset -2px 0 4px 2px rgb(75, 147, 240),
+                inset -2px 0 10px 0 rgb(100, 152, 240);
+    
+}
+
+.result{
+    border-radius: 8px;
+    width: 97%;
+    
+}
+
+button {
+    height: 65px;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid;
+    font-size: 20px;
+    
+    border-color: rgba(87, 85, 85);
+    margin: 2px, 2px, 8px, 2px;
+    transition-duration: 0.4s;
+    box-shadow: inset 5px 0 15px -5px rgb(116, 155, 240), 
+                inset -3px 0 15px -5px rgb(54, 181, 236), 
+                inset 0 -5px 0 -3px rgb(89, 182, 240), 
+                inset 0 0 2px 2px rgba(105, 248, 234, 0.15),
+                inset 0 5px 15px 0 rgb(128, 222, 243);
+            
+    
+}
+
+.long{
+    width: 50%;
+    
+}
+
+.responsive:hover {
+    background-color: rgb(84, 167, 235);
+    color: rgb(16, 21, 151);
+    box-shadow: inset 5px 0 15px -5px rgb(92, 68, 208), 
+                inset -3px 0 15px -5px rgb(82, 77, 179), 
+                inset 0 -5px 0 -3px rgb(68, 59, 164), 
+                inset 0 0 2px 2px rgba(28, 96, 180, 0.15),
+                inset 0 5px 15px 0 rgb(68, 23, 113);
+               
+}
+input{
+    width: 350px;
+    height: 60px;
+    text-align: right;
+    font-size: 1.7em;
+}
+
+
+
+
+
+
